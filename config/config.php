@@ -2,9 +2,9 @@
 
 /**
  * facebook_widgets extension for Contao Open Source CMS
- * 
+ *
  * Copyright (C) 2013 Codefog
- * 
+ *
  * @package facebook_widgets
  * @link    http://codefog.pl
  * @author  Kamil Kuzminski <kamil.kuzminski@codefog.pl>
@@ -16,7 +16,7 @@
  * Extension version
  */
 @define('FACEBOOK_WIDGETS_VERSION', '1.0');
-@define('FACEBOOK_WIDGETS_BUILD', '1');
+@define('FACEBOOK_WIDGETS_BUILD', '2');
 
 
 /**
