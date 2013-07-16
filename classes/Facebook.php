@@ -2,9 +2,9 @@
 
 /**
  * facebook_widgets extension for Contao Open Source CMS
- * 
+ *
  * Copyright (C) 2013 Codefog
- * 
+ *
  * @package facebook_widgets
  * @link    http://codefog.pl
  * @author  Kamil Kuzminski <kamil.kuzminski@codefog.pl>
@@ -56,7 +56,41 @@ class Facebook
 	 */
 	public static function includeJavascriptSDK($strLanguage='en_US')
 	{
-		$GLOBALS['TL_MOOTOOLS']['FB_JSSDK'] = '<div id="fb-root"></div>
+		$strKey = '';
+
+		// Use the TL_BODY if available
+		if (version_compare(VERSION, '3.1', '>='))
+		{
+			$strKey = 'TL_BODY';
+		}
+		// Older versions of Contao
+		else
+		{
+			global $objPage;
+			$objLayout = \LayoutModel::findByPk($objPage->layout);
+
+			if ($objLayout !== null)
+			{
+				// Use jQuery
+				if ($objLayout->addJQuery)
+				{
+					$strKey = 'TL_JQUERY';
+				}
+
+				// Use MooTools
+				if ($objLayout->addMooTools)
+				{
+					$strKey = 'TL_MOOTOOLS';
+				}
+			}
+		}
+
+		if ($strKey == '')
+		{
+			return;
+		}
+
+		$GLOBALS[$strKey]['FB_JSSDK'] = '<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;

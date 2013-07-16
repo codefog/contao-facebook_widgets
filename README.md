@@ -12,7 +12,8 @@ A complete set of configurable Facebook widgets for Contao. The widgets can be a
 - Subscribe button
 
 ### Compatibility
-- Contao 3.0
+- Contao 3.0 (only with jQuery or MooTools included in page layout)
+- Contao 3.1
 
 ### Available languages
 - English
