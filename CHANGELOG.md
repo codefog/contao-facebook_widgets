@@ -1,6 +1,13 @@
 facebook_widgets Changelog
 ==========================
 
+Version 1.0.3 stable (2013-??-??)
+---------------------------------
+
+### Fixed
+- Do not display the JavaScript console warnings
+
+
 Version 1.0.2 stable (2013-07-16)
 ---------------------------------
 
