@@ -1,7 +1,7 @@
 facebook_widgets Changelog
 ==========================
 
-Version 1.0.3 stable (2013-??-??)
+Version 1.0.3 stable (2013-09-16)
 ---------------------------------
 
 ### Improved

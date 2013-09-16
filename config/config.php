@@ -16,7 +16,7 @@
  * Extension version
  */
 @define('FACEBOOK_WIDGETS_VERSION', '1.0');
-@define('FACEBOOK_WIDGETS_BUILD', '2');
+@define('FACEBOOK_WIDGETS_BUILD', '3');
 
 
 /**
