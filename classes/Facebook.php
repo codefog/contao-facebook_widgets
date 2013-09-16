@@ -3,18 +3,14 @@
 /**
  * facebook_widgets extension for Contao Open Source CMS
  *
- * Copyright (C) 2013 Codefog
+ * Copyright (C) 2013 Codefog Ltd
  *
  * @package facebook_widgets
- * @link    http://codefog.pl
+ * @author  Codefog Ltd <http://codefog.pl>
  * @author  Kamil Kuzminski <kamil.kuzminski@codefog.pl>
  * @license LGPL
  */
 
-
-/**
- * Run in a custom namespace, so the class can be replaced
- */
 namespace Facebook;
 
 
@@ -95,7 +91,7 @@ class Facebook
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/' . $strLanguage . '/all.js#xfbml=1";
+  js.src = "//connect.facebook.net/' . $strLanguage . '/all.js#xfbml=1&status=0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, \'script\', \'facebook-jssdk\'));</script>';
 	}
