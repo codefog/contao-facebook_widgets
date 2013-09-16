@@ -4,6 +4,9 @@ facebook_widgets Changelog
 Version 1.0.3 stable (2013-??-??)
 ---------------------------------
 
+### Improved
+- Added the autoload.ini file
+
 ### Fixed
 - Do not display the JavaScript console warnings
 
