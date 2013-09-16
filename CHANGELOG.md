@@ -6,6 +6,8 @@ Version 1.0.3 stable (2013-??-??)
 
 ### Improved
 - Added the autoload.ini file
+- Updated the readme file
+- Updated the copyright information
 
 ### Fixed
 - Do not display the JavaScript console warnings
