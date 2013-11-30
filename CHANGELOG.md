@@ -1,6 +1,15 @@
 facebook_widgets Changelog
 ==========================
 
+Version 1.0.4 stable (2013-11-30)
+---------------------------------
+
+### Improved
+- Updated the autoload.ini file
+- Updated the readme file
+- Updated the copyright information
+
+
 Version 1.0.3 stable (2013-09-16)
 ---------------------------------
 
