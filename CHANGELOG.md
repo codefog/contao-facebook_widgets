@@ -1,6 +1,13 @@
 facebook_widgets Changelog
 ==========================
 
+Version 1.0.5 stable (2014-12-??)
+---------------------------------
+
+### Improved
+- Added the composer.json file
+
+
 Version 1.0.4 stable (2013-11-30)
 ---------------------------------
 
