@@ -11,13 +11,13 @@
  * @license LGPL
  */
 
-namespace Facebook;
+namespace Codefog\FacebookWidgets;
 
 
 /**
  * Facebook hybrid "activity feed".
  */
-class FacebookActivityFeed extends \FacebookHybrid
+class FacebookActivityFeed extends FacebookHybrid
 {
 
 	/**
@@ -47,6 +47,6 @@ class FacebookActivityFeed extends \FacebookHybrid
 	 */
 	protected function compile()
 	{
-		$this->Template->widget = \Facebook::generateActivityFeed($this->arrData, $this->facebook_type);
+		$this->Template->widget = Facebook::generateActivityFeed($this->arrData, $this->facebook_type);
 	}
 }

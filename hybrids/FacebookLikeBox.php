@@ -11,13 +11,13 @@
  * @license LGPL
  */
 
-namespace Facebook;
+namespace Codefog\FacebookWidgets;
 
 
 /**
  * Facebook hybrid "like box".
  */
-class FacebookLikeBox extends \FacebookHybrid
+class FacebookLikeBox extends FacebookHybrid
 {
 
 	/**
@@ -47,6 +47,6 @@ class FacebookLikeBox extends \FacebookHybrid
 	 */
 	protected function compile()
 	{
-		$this->Template->widget = \Facebook::generateLikeBox($this->arrData, $this->facebook_type);
+		$this->Template->widget = Facebook::generateLikeBox($this->arrData, $this->facebook_type);
 	}
 }

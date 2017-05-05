@@ -15,7 +15,7 @@
 /**
  * Register a custom namespace
  */
-ClassLoader::addNamespace('Facebook');
+ClassLoader::addNamespace('Codefog\FacebookWidgets');
 
 
 /**
@@ -24,18 +24,18 @@ ClassLoader::addNamespace('Facebook');
 ClassLoader::addClasses(array
 (
 	// Classes
-	'Facebook\Facebook'                   => 'system/modules/facebook_widgets/classes/Facebook.php',
-	'Facebook\FacebookHybrid'             => 'system/modules/facebook_widgets/classes/FacebookHybrid.php',
+	'Codefog\FacebookWidgets\Facebook'                   => 'system/modules/facebook_widgets/classes/Facebook.php',
+	'Codefog\FacebookWidgets\FacebookHybrid'             => 'system/modules/facebook_widgets/classes/FacebookHybrid.php',
 
 	// Modules
-	'Facebook\FacebookActivityFeed'       => 'system/modules/facebook_widgets/hybrids/FacebookActivityFeed.php',
-	'Facebook\FacebookComments'           => 'system/modules/facebook_widgets/hybrids/FacebookComments.php',
-	'Facebook\FacebookFacepile'           => 'system/modules/facebook_widgets/hybrids/FacebookFacepile.php',
-	'Facebook\FacebookLikeBox'            => 'system/modules/facebook_widgets/hybrids/FacebookLikeBox.php',
-	'Facebook\FacebookLikeButton'         => 'system/modules/facebook_widgets/hybrids/FacebookLikeButton.php',
-	'Facebook\FacebookRecommendationsBox' => 'system/modules/facebook_widgets/hybrids/FacebookRecommendationsBox.php',
-	'Facebook\FacebookSendButton'         => 'system/modules/facebook_widgets/hybrids/FacebookSendButton.php',
-	'Facebook\FacebookSubscribeButton'    => 'system/modules/facebook_widgets/hybrids/FacebookSubscribeButton.php'
+	'Codefog\FacebookWidgets\FacebookActivityFeed'       => 'system/modules/facebook_widgets/hybrids/FacebookActivityFeed.php',
+	'Codefog\FacebookWidgets\FacebookComments'           => 'system/modules/facebook_widgets/hybrids/FacebookComments.php',
+	'Codefog\FacebookWidgets\FacebookFacepile'           => 'system/modules/facebook_widgets/hybrids/FacebookFacepile.php',
+	'Codefog\FacebookWidgets\FacebookLikeBox'            => 'system/modules/facebook_widgets/hybrids/FacebookLikeBox.php',
+	'Codefog\FacebookWidgets\FacebookLikeButton'         => 'system/modules/facebook_widgets/hybrids/FacebookLikeButton.php',
+	'Codefog\FacebookWidgets\FacebookRecommendationsBox' => 'system/modules/facebook_widgets/hybrids/FacebookRecommendationsBox.php',
+	'Codefog\FacebookWidgets\FacebookSendButton'         => 'system/modules/facebook_widgets/hybrids/FacebookSendButton.php',
+	'Codefog\FacebookWidgets\FacebookSubscribeButton'    => 'system/modules/facebook_widgets/hybrids/FacebookSubscribeButton.php'
 ));
 
 

@@ -11,13 +11,13 @@
  * @license LGPL
  */
 
-namespace Facebook;
+namespace Codefog\FacebookWidgets;
 
 
 /**
  * Facebook hybrid "subscribe button".
  */
-class FacebookSubscribeButton extends \FacebookHybrid
+class FacebookSubscribeButton extends FacebookHybrid
 {
 
 	/**
@@ -47,6 +47,6 @@ class FacebookSubscribeButton extends \FacebookHybrid
 	 */
 	protected function compile()
 	{
-		$this->Template->widget = \Facebook::generateSubscribeButton($this->arrData, $this->facebook_type);
+		$this->Template->widget = Facebook::generateSubscribeButton($this->arrData, $this->facebook_type);
 	}
 }

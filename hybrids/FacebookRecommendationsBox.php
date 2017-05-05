@@ -11,13 +11,13 @@
  * @license LGPL
  */
 
-namespace Facebook;
+namespace Codefog\FacebookWidgets;
 
 
 /**
  * Facebook hybrid "recommendations box".
  */
-class FacebookRecommendationsBox extends \FacebookHybrid
+class FacebookRecommendationsBox extends FacebookHybrid
 {
 
 	/**
@@ -47,6 +47,6 @@ class FacebookRecommendationsBox extends \FacebookHybrid
 	 */
 	protected function compile()
 	{
-		$this->Template->widget = \Facebook::generateRecommendationsBox($this->arrData, $this->facebook_type);
+		$this->Template->widget = Facebook::generateRecommendationsBox($this->arrData, $this->facebook_type);
 	}
 }

@@ -11,7 +11,7 @@
  * @license LGPL
  */
 
-namespace Facebook;
+namespace Codefog\FacebookWidgets;
 
 
 /**
@@ -42,7 +42,7 @@ class Facebook
 	 */
 	public static function includeNamespace()
 	{
-		$GLOBALS['TL_HOOKS']['outputFrontendTemplate']['FB_NAMESPACE'] = array('Facebook', 'addFacebookNamespace');
+		$GLOBALS['TL_HOOKS']['outputFrontendTemplate']['FB_NAMESPACE'] = array('Codefog\FacebookWidgets\Facebook', 'addFacebookNamespace');
 	}
 
 

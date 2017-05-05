@@ -11,13 +11,13 @@
  * @license LGPL
  */
 
-namespace Facebook;
+namespace Codefog\FacebookWidgets;
 
 
 /**
  * Facebook hybrid "send button".
  */
-class FacebookSendButton extends \FacebookHybrid
+class FacebookSendButton extends FacebookHybrid
 {
 
 	/**
@@ -47,6 +47,6 @@ class FacebookSendButton extends \FacebookHybrid
 	 */
 	protected function compile()
 	{
-		$this->Template->widget = \Facebook::generateSendButton($this->arrData, $this->facebook_type);
+		$this->Template->widget = Facebook::generateSendButton($this->arrData, $this->facebook_type);
 	}
 }

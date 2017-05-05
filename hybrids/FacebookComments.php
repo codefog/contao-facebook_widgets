@@ -11,7 +11,7 @@
  * @license LGPL
  */
 
-namespace Facebook;
+namespace Codefog\FacebookWidgets;
 
 
 /**
@@ -47,6 +47,6 @@ class FacebookComments extends FacebookHybrid
 	 */
 	protected function compile()
 	{
-		$this->Template->widget = \Facebook::generateComments($this->arrData, $this->facebook_type);
+		$this->Template->widget = Facebook::generateComments($this->arrData, $this->facebook_type);
 	}
 }
