@@ -11,13 +11,13 @@
  * @license LGPL
  */
 
-namespace Facebook;
+namespace Codefog\FacebookWidgets;
 
 
 /**
  * Facebook hybrid "like button".
  */
-class FacebookLikeButton extends \FacebookHybrid
+class FacebookLikeButton extends FacebookHybrid
 {
 
 	/**
@@ -47,6 +47,6 @@ class FacebookLikeButton extends \FacebookHybrid
 	 */
 	protected function compile()
 	{
-		$this->Template->widget = \Facebook::generateLikeButton($this->arrData, $this->facebook_type);
+		$this->Template->widget = Facebook::generateLikeButton($this->arrData, $this->facebook_type);
 	}
 }

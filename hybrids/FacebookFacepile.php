@@ -11,13 +11,13 @@
  * @license LGPL
  */
 
-namespace Facebook;
+namespace Codefog\FacebookWidgets;
 
 
 /**
  * Facebook hybrid "facepile".
  */
-class FacebookFacepile extends \FacebookHybrid
+class FacebookFacepile extends FacebookHybrid
 {
 
 	/**
@@ -47,6 +47,6 @@ class FacebookFacepile extends \FacebookHybrid
 	 */
 	protected function compile()
 	{
-		$this->Template->widget = \Facebook::generateFacepile($this->arrData, $this->facebook_type);
+		$this->Template->widget = Facebook::generateFacepile($this->arrData, $this->facebook_type);
 	}
 }

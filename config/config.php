@@ -26,14 +26,14 @@ array_insert($GLOBALS['FE_MOD'], 4, array
 (
 	'facebook' => array
 	(
-		'fb_likeButton'         => 'FacebookLikeButton',
-		'fb_sendButton'         => 'FacebookSendButton',
-		'fb_subscribeButton'    => 'FacebookSubscribeButton',
-		'fb_comments'           => 'FacebookComments',
-		'fb_activityFeed'       => 'FacebookActivityFeed',
-		'fb_recommendationsBox' => 'FacebookRecommendationsBox',
-		'fb_likeBox'            => 'FacebookLikeBox',
-		'fb_facepile'           => 'FacebookFacepile'
+		'fb_likeButton'         => 'Codefog\FacebookWidgets\FacebookLikeButton',
+		'fb_sendButton'         => 'Codefog\FacebookWidgets\FacebookSendButton',
+		'fb_subscribeButton'    => 'Codefog\FacebookWidgets\FacebookSubscribeButton',
+		'fb_comments'           => 'Codefog\FacebookWidgets\FacebookComments',
+		'fb_activityFeed'       => 'Codefog\FacebookWidgets\FacebookActivityFeed',
+		'fb_recommendationsBox' => 'Codefog\FacebookWidgets\FacebookRecommendationsBox',
+		'fb_likeBox'            => 'Codefog\FacebookWidgets\FacebookLikeBox',
+		'fb_facepile'           => 'Codefog\FacebookWidgets\FacebookFacepile'
 	)
 ));
 
@@ -45,13 +45,13 @@ array_insert($GLOBALS['TL_CTE'], 4, array
 (
 	'facebook' => array
 	(
-		'fb_likeButton'         => 'FacebookLikeButton',
-		'fb_sendButton'         => 'FacebookSendButton',
-		'fb_subscribeButton'    => 'FacebookSubscribeButton',
-		'fb_comments'           => 'FacebookComments',
-		'fb_activityFeed'       => 'FacebookActivityFeed',
-		'fb_recommendationsBox' => 'FacebookRecommendationsBox',
-		'fb_likeBox'            => 'FacebookLikeBox',
-		'fb_facepile'           => 'FacebookFacepile'
+		'fb_likeButton'         => 'Codefog\FacebookWidgets\FacebookLikeButton',
+		'fb_sendButton'         => 'Codefog\FacebookWidgets\FacebookSendButton',
+		'fb_subscribeButton'    => 'Codefog\FacebookWidgets\FacebookSubscribeButton',
+		'fb_comments'           => 'Codefog\FacebookWidgets\FacebookComments',
+		'fb_activityFeed'       => 'Codefog\FacebookWidgets\FacebookActivityFeed',
+		'fb_recommendationsBox' => 'Codefog\FacebookWidgets\FacebookRecommendationsBox',
+		'fb_likeBox'            => 'Codefog\FacebookWidgets\FacebookLikeBox',
+		'fb_facepile'           => 'Codefog\FacebookWidgets\FacebookFacepile'
 	)
 ));
